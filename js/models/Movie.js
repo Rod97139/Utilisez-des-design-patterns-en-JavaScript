@@ -19,11 +19,11 @@ class Movie {
     }
 
     get picture() {
-        return `/assets/${this._picture}`
+        return `assets/${this._picture}`
     }
 
     get thumbnail() {
-        return `/assets/thumbnails/${this._picture}`
+        return `assets/thumbnails/${this._picture}`
     }
 
     get released_in() {

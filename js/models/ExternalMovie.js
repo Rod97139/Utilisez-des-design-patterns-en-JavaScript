@@ -18,11 +18,11 @@ class ExternalMovie {
     }
 
     get picture() {
-        return `/assets/${this._medias.picture}`
+        return `assets/${this._medias.picture}`
     }
 
     get thumbnail() {
-        return `/assets/thumbnails/${this._medias.thumbnail}`
+        return `assets/thumbnails/${this._medias.thumbnail}`
     }
 
     get released_in() {
